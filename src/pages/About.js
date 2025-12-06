@@ -87,7 +87,7 @@ const About = () => {
             <h3 className="mb-3">Ready to work with us?</h3>
             <p className="mb-4">Let us help you build something amazing.</p>
 
-            <Link to="/contact" className="btn btn-primary px-4 py-2">
+            <Link to="/contact" className="btn btn-about primary px-4 py-2">
               Contact Us
             </Link>
           </div>

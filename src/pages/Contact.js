@@ -51,13 +51,13 @@ const ContactSection = () => {
             +880 1234 567 890
           </p>
           <div className="mt-3 d-flex gap-3">
-            <a href="#" className="fs-4 text-dark">
+            <a href="/" className="fs-4 text-dark">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="fs-4 text-dark">
+            <a href="/" className="fs-4 text-dark">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="fs-4 text-dark">
+            <a href="/" className="fs-4 text-dark">
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
@@ -122,7 +122,7 @@ const ContactSection = () => {
               ></textarea>
               {errors.message && <div className="invalid-feedback">{errors.message}</div>}
             </div>
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btn btn-about">Send Message</button>
           </form>
         </div>
 
